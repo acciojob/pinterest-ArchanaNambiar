@@ -16,7 +16,8 @@
  
   height: 150px;  
  width: 350px;
-	;
+	object-fit: cover;
+	
 }
 .hero h1{
 	float:right;
