@@ -1,5 +1,5 @@
 /*  your css code here. If applicable */
-.container {
+.hero {
   width: 100%; /* Adjust this value as needed */
   height: 0;
   padding-bottom: 56.25%; /* Set the desired aspect ratio (e.g., 16:9 = 9 / 16 * 100) */
@@ -7,7 +7,7 @@
   overflow: hidden;
 }
 
-.container img {
+.hero img {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -16,4 +16,7 @@
   height: 100%;
   object-fit: cover;
   object-position: center;
+}
+.hero>h1{
+	text-align:right;
 }
